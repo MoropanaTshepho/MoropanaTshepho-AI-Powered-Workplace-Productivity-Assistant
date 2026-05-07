@@ -58,7 +58,7 @@ Summarize: We discussed deadlines, assigned tasks, and scheduled the next meetin
 
   
 ###  Task Planning
-
+ 
 **Prompt:**
 Create a daily task plan for a student who has 3 assignments due this week. Organize it into morning, afternoon, and evening tasks.
 
