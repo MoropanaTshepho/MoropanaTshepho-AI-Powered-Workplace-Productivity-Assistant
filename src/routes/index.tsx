@@ -148,7 +148,7 @@ function Portfolio() {
               </Button>
             </div>
             <div className="mt-6 flex items-center gap-4 text-sm text-muted-foreground">
-              <span className="inline-flex items-center gap-1"><MapPin className="h-3 w-3" /> Johannesburg, ZA</span>
+              <span className="inline-flex items-center gap-1"><MapPin className="h-3 w-3" /> Cape Town, ZA</span>
               <a className="hover:text-foreground" href="https://github.com" target="_blank" rel="noreferrer"><Github className="h-4 w-4" /></a>
               <a className="hover:text-foreground" href="https://linkedin.com" target="_blank" rel="noreferrer"><Linkedin className="h-4 w-4" /></a>
             </div>
@@ -307,7 +307,7 @@ function Portfolio() {
             <ContactRow icon={Mail} label="Email" value="tshepho.dev@example.com" href="mailto:tshepho.dev@example.com" />
             <ContactRow icon={Linkedin} label="LinkedIn" value="linkedin.com/in/tshepho" href="https://linkedin.com" />
             <ContactRow icon={Github} label="GitHub" value="github.com/MoropanaTshepho" href="https://github.com/MoropanaTshepho" />
-            <ContactRow icon={MapPin} label="Location" value="Johannesburg, South Africa" />
+            <ContactRow icon={MapPin} label="Location" value="Cape Town, South Africa" />
           </div>
         </div>
       </Section>
