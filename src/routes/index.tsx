@@ -62,10 +62,11 @@ const projects = [
 ];
 
 const education = [
-  { title: "BSc in Computer Science", org: "University of XYZ", year: "2022 – 2025", desc: "Coursework in algorithms, databases, software engineering, and AI." },
-  { title: "Full-Stack Web Development Bootcamp", org: "ALX / CodeAcademy", year: "2024", desc: "Hands-on training in MERN stack and modern deployment workflows." },
-  { title: "AI for Everyone — DeepLearning.AI", org: "Coursera", year: "2024", desc: "Foundations of machine learning, prompt engineering, and ethical AI." },
-  { title: "Google IT Support Certificate", org: "Google", year: "2023", desc: "Networking, troubleshooting, and customer support fundamentals." },
+  { title: "Introduction to AI", org: "Certificate", year: "2026", desc: "Foundations of artificial intelligence concepts, capabilities, and real-world applications." },
+  { title: "Maximize Productivity with AI Tools", org: "Certificate", year: "2026", desc: "Practical workflows for using AI assistants to accelerate daily work and decision-making." },
+  { title: "Discover the Art of Prompting", org: "Certificate", year: "2026", desc: "Structured prompt engineering techniques for clear, reliable AI outputs." },
+  { title: "Use AI Responsibly", org: "Certificate", year: "2026", desc: "Ethics, bias, privacy, and responsible deployment of AI systems." },
+  { title: "Stay Ahead of the AI Curve", org: "Certificate", year: "2026", desc: "Trends, tools, and continuous-learning habits to keep pace with rapid AI developments." },
 ];
 
 const experience = [
