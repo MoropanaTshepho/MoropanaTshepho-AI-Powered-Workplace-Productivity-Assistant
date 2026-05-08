@@ -7,6 +7,7 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Label } from "@/components/ui/label";
 import { toast } from "sonner";
+import profilePhoto from "@/assets/tshepho.jpg";
 import {
   Mail, Github, Linkedin, ExternalLink, Code2, Sparkles, GraduationCap,
   Briefcase, Send, Moon, Sun, Download, MapPin, ArrowRight,
@@ -157,9 +158,11 @@ function Portfolio() {
           <div className="relative mx-auto hidden md:block">
             <div className="absolute inset-0 rounded-3xl blur-3xl opacity-50" style={{ background: "var(--gradient-primary)" }} />
             <div className="relative aspect-square w-72 overflow-hidden rounded-3xl border border-border bg-card p-2" style={{ boxShadow: "var(--shadow-elegant)" }}>
-              <div className="grid h-full w-full place-items-center rounded-2xl text-6xl font-bold text-primary-foreground" style={{ background: "var(--gradient-primary)" }}>
-                TM
-              </div>
+            <img
+              src={profilePhoto}
+              alt="Tshepho Moropana portrait"
+              className="h-full w-full rounded-2xl object-cover"
+            />
             </div>
           </div>
         </div>
